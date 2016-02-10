@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="1600"
+   viewBox="0 0 1200 1600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Wireframes 2016.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="805.49226"
+     inkscape:cy="566.7479"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1871"
+     inkscape:window-height="1056"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4138"
+       dotted="true"
+       empspacing="20"
+       empcolor="#c8c8ff"
+       empopacity="0.25098039" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,547.63784)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60"
+       y="372.36215"
+       id="text4573"
+       sodipodi:linespacing="150%"><tspan
+         sodipodi:role="line"
+         x="60"
+         y="372.36215"
+         id="tspan4858" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="120"
+       y="-547.63782"
+       id="text4583"
+       sodipodi:linespacing="150%"><tspan
+         sodipodi:role="line"
+         id="tspan4585"
+         x="120"
+         y="-547.63782" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4954"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(0,-947.63784)"><flowRegion
+         id="flowRegion4956"><rect
+           id="rect4958"
+           width="1100"
+           height="280"
+           x="60"
+           y="1600" /></flowRegion><flowPara
+         id="flowPara4960" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5016"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(39.443634,-486.24086)"><flowRegion
+         id="flowRegion5018"><rect
+           id="rect5020"
+           width="1040.5564"
+           height="238.60303"
+           x="40"
+           y="1260" /></flowRegion><flowPara
+         id="flowPara5022"
+         style="font-weight:bold">Questions</flowPara><flowPara
+         id="flowPara5036" /><flowPara
+         id="flowPara7862">Will the questions/prompts we launch with remain the same throughout the life of the project? Do we need to plan to accommodate more (or less) in the future? Should we use questions or prompts to entice users?</flowPara><flowPara
+         id="flowPara5038" /><flowPara
+         id="flowPara5040">Can we get great, relevant, photos for the questions/prompts?</flowPara><flowPara
+         id="flowPara7872" /><flowPara
+         id="flowPara7874">What do we show in interact and about boxes when they're minimized?</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7666"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:35px;line-height:150%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion7668"><rect
+           id="rect7670"
+           width="780"
+           height="80"
+           x="40"
+           y="80" /></flowRegion><flowPara
+         id="flowPara7672"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="40"
+       y="-467.63785"
+       id="text7674"
+       sodipodi:linespacing="150%"><tspan
+         sodipodi:role="line"
+         id="tspan7676"
+         x="40"
+         y="-467.63785" /></text>
+    <g
+       id="g7876">
+      <rect
+         y="-247.13782"
+         x="40.5"
+         height="599"
+         width="1119"
+         id="rect4136"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4142-2"
+         y="-213.4754"
+         x="57.609154"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-213.4754"
+           x="57.609154"
+           id="tspan4144-1"
+           sodipodi:role="line">QUESTIONS AND ANSWERS (OR PROMPTS AND DISCUSSION)</tspan></text>
+      <rect
+         y="-187.13782"
+         x="80.5"
+         height="239"
+         width="1039"
+         id="rect4136-6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6.0000001, 6.0000001;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="72.862152"
+         x="80.5"
+         height="239"
+         width="1039"
+         id="rect4136-6-6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6.0000001, 6.0000001;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-147.13782"
+         x="100.5"
+         height="179"
+         width="319"
+         id="rect4211"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-147.13782"
+         x="440.5"
+         height="179"
+         width="319"
+         id="rect4211-7"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-147.13782"
+         x="780.5"
+         height="179"
+         width="319"
+         id="rect4211-8"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4236"
+         y="-158.56677"
+         x="101.03046"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-158.56677"
+           x="101.03046"
+           id="tspan4238"
+           sodipodi:role="line">About accessibility</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text4236-2"
+         y="101.23019"
+         x="99.619301"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="101.23019"
+           x="99.619301"
+           id="tspan4238-5"
+           sodipodi:role="line">Achieving accessibility</tspan></text>
+      <rect
+         y="112.86215"
+         x="100.5"
+         height="179"
+         width="319"
+         id="rect4211-89"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="112.86215"
+         x="440.5"
+         height="179"
+         width="319"
+         id="rect4211-7-2"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="112.86215"
+         x="780.5"
+         height="179"
+         width="319"
+         id="rect4211-8-2"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-129.13928"
+         x="120.5"
+         height="64"
+         width="279"
+         id="rect4432"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4434"
+         y="-77.668266"
+         x="152.08191"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-77.668266"
+           x="152.08191"
+           id="tspan4436"
+           sodipodi:role="line">Accessibility versus mobility</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text4438"
+         y="-104.64795"
+         x="129.34692"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-104.64795"
+           x="129.34692"
+           id="tspan4440"
+           sodipodi:role="line">QUESTION / PROMPT</tspan></text>
+      <rect
+         y="-128.13782"
+         x="460.5"
+         height="39"
+         width="279"
+         id="rect4432-3"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4434-6"
+         y="-101.66827"
+         x="511.05164"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-101.66827"
+           x="511.05164"
+           id="tspan4436-3"
+           sodipodi:role="line">Assessing accessibility</tspan></text>
+      <rect
+         y="-128.13782"
+         x="800.5"
+         height="39"
+         width="279"
+         id="rect4432-7"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4434-5"
+         y="-101.66827"
+         x="860.5835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-101.66827"
+           x="860.5835"
+           id="tspan4436-4"
+           sodipodi:role="line">Overcoming barriers</tspan></text>
+      <rect
+         y="135.86215"
+         x="800.5"
+         height="39"
+         width="279"
+         id="rect4432-1"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4434-2"
+         y="161.3317"
+         x="852.2522"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="161.3317"
+           x="852.2522"
+           id="tspan4436-33"
+           sodipodi:role="line">Financing accessibility</tspan></text>
+      <rect
+         y="135.86215"
+         x="460.5"
+         height="39"
+         width="279"
+         id="rect4432-2"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4434-4"
+         y="161.3317"
+         x="517.90466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="161.3317"
+           x="517.90466"
+           id="tspan4436-9"
+           sodipodi:role="line">Revising governance</tspan></text>
+      <rect
+         y="135.86215"
+         x="120.5"
+         height="39"
+         width="279"
+         id="rect4432-9"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4434-3"
+         y="161.3317"
+         x="223.70117"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="161.3317"
+           x="223.70117"
+           id="tspan4436-95"
+           sodipodi:role="line">Land use</tspan></text>
+      <flowRoot
+         transform="translate(5.0812204,-424.6683)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4587"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4589"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#666666;fill-opacity:1"
+             y="380"
+             x="120"
+             height="40"
+             width="280"
+             id="rect4591" /></flowRegion><flowPara
+           id="flowPara4593">The question/prompt would be the only text visibile on each box.</flowPara></flowRoot>      <text
+         sodipodi:linespacing="150%"
+         id="text4438-7"
+         y="-48.7901"
+         x="464.09821"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-48.7901"
+           x="464.09821"
+           id="tspan4440-2"
+           sodipodi:role="line">BOX IMAGE</tspan></text>
+      <flowRoot
+         transform="translate(343.83756,-424.72918)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4587-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4589-1"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#666666;fill-opacity:1"
+             y="380"
+             x="120"
+             height="40"
+             width="280"
+             id="rect4591-1" /></flowRegion><flowPara
+           id="flowPara4593-3">Each box would feature an image related to the box concept.</flowPara></flowRoot>      <text
+         sodipodi:linespacing="150%"
+         id="text4883"
+         y="-51.637848"
+         x="807"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-51.637848"
+           x="807"
+           id="tspan4885"
+           sodipodi:role="line">[+]</tspan></text>
+      <flowRoot
+         transform="translate(684.83756,-424.72918)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4587-7-3"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4589-1-5"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#666666;fill-opacity:1"
+             y="380"
+             x="120"
+             height="40"
+             width="280"
+             id="rect4591-1-0" /></flowRegion><flowPara
+           id="flowPara4593-3-5">Each box is expands to reveal an answer, or a discussion, of the box concept.</flowPara></flowRoot>      <rect
+         y="412.86218"
+         x="40.5"
+         height="279"
+         width="621.19684"
+         id="rect4136-1"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4142-1"
+         y="446.51447"
+         x="57.989849"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="446.51447"
+           x="57.989849"
+           id="tspan4144-7"
+           sodipodi:role="line">INTERACT [+]</tspan></text>
+      <rect
+         y="459.86215"
+         x="58.499996"
+         height="109.51241"
+         width="584.6203"
+         id="rect4211-89-5"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.99999998, 5.99999998;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="588.5556"
+         x="59.251083"
+         height="85.470779"
+         width="581.44574"
+         id="rect4211-89-5-5"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.99999994, 5.99999994;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text5082"
+         y="492.36218"
+         x="80"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="492.36218"
+           x="80"
+           id="tspan5084"
+           sodipodi:role="line">FORUM CONTENT</tspan><tspan
+           id="tspan5086"
+           y="518.61218"
+           x="80"
+           sodipodi:role="line">Depending on forum service, a place to display recent forum threads</tspan><tspan
+           id="tspan5088"
+           y="544.86218"
+           x="80"
+           sodipodi:role="line">and/or a link out to the forum itself.</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text5082-3"
+         y="621.0556"
+         x="76.751083"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="621.0556"
+           x="76.751083"
+           id="tspan5084-1"
+           sodipodi:role="line">TWITTER FEED</tspan><tspan
+           id="tspan5118"
+           y="647.3056"
+           x="76.751083"
+           sodipodi:role="line" /></text>
+      <rect
+         y="-506.13788"
+         x="40.5"
+         height="93.958366"
+         width="1119"
+         id="rect4136-33"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text7662"
+         y="-466.63785"
+         x="58"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-466.63785"
+           x="58"
+           id="tspan7664"
+           sodipodi:role="line">HEADER AREA</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text7678"
+         y="-437.63785"
+         x="58"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-437.63785"
+           x="58"
+           id="tspan7680"
+           sodipodi:role="line">Project title and banner</tspan></text>
+      <rect
+         y="-390.13785"
+         x="40.5"
+         height="121"
+         width="717"
+         id="rect4136-33-6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.99999964, 5.99999964;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text7662-6"
+         y="-352.09369"
+         x="59.59502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-352.09369"
+           x="59.59502"
+           id="tspan7664-5"
+           sodipodi:role="line">BRIEF INTRODUCTION</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text7678-8"
+         y="-323.09369"
+         x="59.59502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-323.09369"
+           x="59.59502"
+           id="tspan7680-6"
+           sodipodi:role="line">What is this project / what is on this page? Room for a more in-depth discussion </tspan><tspan
+           id="tspan7724"
+           y="-296.84369"
+           x="59.59502"
+           sodipodi:role="line">of the project is provided below in the &quot;about&quot; box.</tspan></text>
+      <rect
+         y="-390.13785"
+         x="780.13367"
+         height="121"
+         width="379"
+         id="rect4136-33-6-7"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.99999964, 5.99999964;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text5082-3-6"
+         y="-353.52466"
+         x="802.46802"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="-353.52466"
+           x="802.46802"
+           id="tspan5084-1-6"
+           sodipodi:role="line">SOCIAL MEDIA ICONS / LINKS</tspan><tspan
+           id="tspan5118-2"
+           y="-327.27466"
+           x="802.46802"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text7796"
+         y="393.85873"
+         x="41.679115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="393.85873"
+           x="41.679115"
+           id="tspan7798"
+           sodipodi:role="line">As with the &quot;answer boxes&quot; above, the &quot;interact&quot; and &quot;about&quot; boxes would be expandable to show a larger amount of content.</tspan></text>
+      <rect
+         y="413.05606"
+         x="682.71826"
+         height="279"
+         width="476.94705"
+         id="rect4136-1-0"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4142-1-5"
+         y="446.70834"
+         x="700.20813"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="446.70834"
+           x="700.20813"
+           id="tspan4144-7-0"
+           sodipodi:role="line">ABOUT [+]</tspan></text>
+      <rect
+         y="460.21042"
+         x="702.5"
+         height="92.029434"
+         width="426"
+         id="rect4211-89-5-2"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.99999997, 5.99999997;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="569.06311"
+         x="703.05115"
+         height="104.79899"
+         width="426"
+         id="rect4211-89-5-5-7"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6.00000001, 6.00000001;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text5082-37"
+         y="494.556"
+         x="722.21826"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="494.556"
+           x="722.21826"
+           id="tspan5084-4"
+           sodipodi:role="line">PROJECT OVERVIEW</tspan><tspan
+           id="tspan5088-3"
+           y="520.80603"
+           x="722.21826"
+           sodipodi:role="line">Discussion of project motivation and goals.</tspan></text>
+      <text
+         sodipodi:linespacing="150%"
+         id="text5082-3-7"
+         y="598.24939"
+         x="718.96936"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:150%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="598.24939"
+           x="718.96936"
+           id="tspan5084-1-69"
+           sodipodi:role="line">PEOPLE / NETWORKS INVOLVED</tspan><tspan
+           id="tspan7850"
+           style="fill:#666666"
+           y="624.49939"
+           x="718.96936"
+           sodipodi:role="line">Authors, funders, institutions, groups.</tspan><tspan
+           style="fill:#666666"
+           id="tspan5118-4"
+           y="650.74939"
+           x="718.96936"
+           sodipodi:role="line" /></text>
+    </g>
+  </g>
+</svg>
