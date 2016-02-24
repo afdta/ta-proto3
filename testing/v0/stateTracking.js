@@ -16,7 +16,7 @@ function MetroInteractive(appWrapperElement){
 	//basic structure: A] app wrapper > a] menu (progress bar, forward, backward) wrapper, b] slide/views wrapper; 
 	//				   B] table of contents is a child of S.wrap
 	S.wrap = d3.select(appWrapperElement).classed("metro-interactive-wrap toc-visible",true).style({"position":"relative", "overflow":"hidden"});
-	S.progress = S.wrap.append("div").classed("metro-interactive-progress c-fix",true).style("padding-right","50px");
+	S.progress = S.wrap.append("div").classed("metro-interactive-progress c-fix",true).style("padding-right","65px");
 	S.viewWrap = S.wrap.append("div").classed("metro-interactive-views",true);
 
 	//run matchMedia queries
@@ -148,7 +148,7 @@ function MetroInteractive(appWrapperElement){
 			var etop = thiz.getBoundingClientRect().top;
 			if(etop > 0 && etop < snapThreshold){throw "Already in view"}
 			var current = window.scrollY;
-			var next = current + etop - 5;
+			var next = current + etop;
 			var I = d3.interpolateNumber(current, next);
 			var tween = function(){
 				return function(t){
@@ -585,7 +585,7 @@ function MetroInteractive(appWrapperElement){
 				real_percent--;
 			}
 			r = real_percent > 7 ? 3 : (real_percent > 4 ? 2.5 : 2); 
-			var block_width = real_percent*num_dots;
+			var block_width = real_percent*(num_dots-1);
 			var start = (100-block_width)/2;
 			var dotPos = [];
 			for(var i=0; i<num_dots; i++){

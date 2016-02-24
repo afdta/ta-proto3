@@ -37,8 +37,8 @@
 .metro-interactive-progress{
 	background-color:#ffffff;
 	margin:0px 0px 10px 0px;
-	padding:6px 0px 0px 0px;
-	height:26px;
+	padding:9px 0px 0px 0px;
+	height:29px;
 	width:100%;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -165,8 +165,7 @@ p.metro-interactive-view-description{line-height:1.75em;margin-top:0.5em;}
 	left:0%;
 	min-height:500px;
 	height:1080px;
-	height:100vh;
-	height:calc(100vh - 10px);
+	height:98vh;
 	width:100%;
 
 	-webkit-transition:opacity 0.25s ease, visibility 0s 0.25s;
@@ -231,7 +230,7 @@ p.metro-interactive-description:first-child{
 .metro-interactive-info-button{
 	position:absolute;
 	right:0px;
-	top:-4px;
+	top:-1px;
 	width:30px;
 	height:23px;
 	padding:9px 6px 9px 10px;
