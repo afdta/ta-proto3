@@ -633,6 +633,10 @@ function MetroInteractive(appWrapperElement){
 		infoButton.on("mousedown",function(d,i){
 			self.show(true);
 		});
+		infoButton.on("touchstart",function(d,i){
+			d3.event.preventDefault();
+			self.show(true);
+		});
 
 		this.hide = function(snapToTop){
 			S.TOCShown = false;
@@ -679,6 +683,15 @@ function MetroInteractive(appWrapperElement){
 		}
 		back.on("mousedown",function(d,i){next(-1)});
 		forward.on("mousedown",function(d,i){next(1)});
+		
+		forward.on("touchstart",function(d,i){
+			d3.event.preventDefault();
+			next(1);
+		});		
+		back.on("touchstart",function(d,i){
+			d3.event.preventDefault();
+			next(-1);
+		});
 
 		window.addEventListener("keydown",function(ev){
 			try{
