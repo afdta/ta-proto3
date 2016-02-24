@@ -52,15 +52,14 @@
 	stroke-width:2px;
 	fill:#ffffff;
 	fill:none;
-}
-.metro-interactive-progress > div:active path, .metro-interactive-progress > div:hover path{
-	stroke:#0D73D6;
+	-webkit-transition:stroke 0.15s ease;
+	-moz-transition:stroke 0.15s ease;
+	-o-transition:stroke 0.15s ease;
+	transition:stroke 0.15s ease;
 }
 
-.metro-interactive-progress .menu-button-inactive path, 
-.metro-interactive-progress .menu-button-inactive:active path, .metro-interactive-progress .menu-button-inactive:hover path{
-	stroke:#dddddd;
-}
+.metro-interactive-progress .menu-button-inactive path{stroke:#dddddd;}
+.metro-interactive-progress .menu-button-active path{stroke:#0D73D6;}
 
 .metro-interactive-wrap div.sort-asc p::after{content:"▲";color:#666666;}
 .metro-interactive-wrap div.sort-desc p::after{content: "▼";color:#666666;}
@@ -105,7 +104,6 @@
 	position:relative;
 	top:0%;
 	left:0%;
-	transition: left 1s;
 	min-height:600px;
 
 	opacity: 1;
