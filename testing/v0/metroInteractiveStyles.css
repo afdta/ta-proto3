@@ -203,7 +203,7 @@ p.metro-interactive-description{
 	padding:15px 22px 15px 15px;
 	border:1px solid #aaaaaa;
 	background-color:#ebebeb;
-	margin:15px 0px 0px 30px;
+	margin:0px 0px 0px 30px;
 	width:53%;
 	float:right;
 }
@@ -433,6 +433,7 @@ p.metro-interactive-description{
 	.metro-interactive-wrap .no-mobile-display{display:none;}
 	.metro-interactive-wrap .mobile-bottom-buffer{margin-bottom:25px;}
 	.metro-interactive-toc-box{float:none; width:auto; margin:0px 0px 0px 0px;}
+	p.first-graph-no-margin{margin-top:1em;}
 }
 @media (min-width:640px){
 	.metro-interactive-wrap .metro-interactive-grid.four-equal > div{width:25%;}
@@ -451,7 +452,8 @@ p.metro-interactive-description{
 
 	.metro-interactive-wrap .no-mobile-display{display:block;}
 	.metro-interactive-wrap .mobile-bottom-buffer{margin-bottom:0px;}
-	.metro-interactive-toc-box{float:right; width:55%; margin:15px 0px 0px 30px;}
+	.metro-interactive-toc-box{float:right; width:55%; margin:0px 0px 0px 30px;}
+	p.first-graph-no-margin{margin-top:0px;}
 }
 
 /*misc*/

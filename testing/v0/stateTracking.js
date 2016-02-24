@@ -574,8 +574,9 @@ function MetroInteractive(appWrapperElement){
 		var tocTable = toc.append("div").classed("as-table",true);
 
 		//fill in all description text -- the DOM structure has been set accordingly: intro, toc, remaining paragraphs
-		content.selectAll("p.metro-interactive-description").data(descriptionText).enter().append("p").classed("metro-interactive-description",true)
-		.text(function(d,i){return d})	
+		var contentP = content.selectAll("p.metro-interactive-description").data(descriptionText).enter().append("p").classed("metro-interactive-description",true)
+		.text(function(d,i){return d})
+		.classed("first-graph-no-margin",function(d,i){return i===0});
 
 		//forward/back buttons
 		var back = S.progress.append("div").style({"float":"left", "width":"15%", "height":"100%", "position":"relative", "cursor":"pointer"});
