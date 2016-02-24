@@ -4,7 +4,7 @@
 //produce a state/navigation object for MPP interactives
 function MetroInteractive(appWrapperElement){
 	
-	//BROWSER TESTING
+	//test that browser supports SVG
 	if(!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")){
 		appWrapperElement.innerHTML = '<p style="font-style:italic;text-align:center;margin:30px 0px 30px 0px;">This interactive feature requires a modern browser such as Chrome, Firefox, IE9+, or Safari.</p>';
 		return null;
@@ -18,6 +18,20 @@ function MetroInteractive(appWrapperElement){
 	S.wrap = d3.select(appWrapperElement).classed("metro-interactive-wrap toc-visible",true).style({"position":"relative", "overflow":"hidden"});
 	S.progress = S.wrap.append("div").classed("metro-interactive-progress c-fix",true).style("padding-right","50px");
 	S.viewWrap = S.wrap.append("div").classed("metro-interactive-views",true);
+
+	//run matchMedia queries
+	S.viewport = {};
+	function matchMedia(){
+		try{
+			S.viewport.desktop = window.matchMedia("(min-width: 640px)").matches;
+			S.viewport.mobile = !S.viewport.desktop;
+		}
+		catch(e){
+			S.viewport.desktop = null;
+			S.viewport.mobile = null;
+		}		
+	}
+	matchMedia();
 
 	var viewMenuCtrl = {bilt:false}; //view menu (table of contents) object. built after all views loaded below.
 
@@ -130,8 +144,9 @@ function MetroInteractive(appWrapperElement){
 	//bring an element to top of window via scrolltop
 	function scrollToThis(thiz){
 		try{
+			var snapThreshold = S.viewport.mobile ? 10 : 125;
 			var etop = thiz.getBoundingClientRect().top;
-			if(etop > 0 && etop < 250){throw "Already in view"}
+			if(etop > 0 && etop < snapThreshold){throw "Already in view"}
 			var current = window.scrollY;
 			var next = current + etop - 5;
 			var I = d3.interpolateNumber(current, next);
@@ -536,7 +551,7 @@ function MetroInteractive(appWrapperElement){
 
 		//build the table of contents structure
 		var toc = content.append("div").classed("metro-interactive-toc-box",true).append("div");
-		toc.append("p").text("KEY TOPIC AREAS").style({"font-size":"13px","color":"#0D73D6","margin-top":"10px"});
+		toc.append("p").text("EXPLORE THE DATA").style({"font-size":"13px","color":"#0D73D6","margin-top":"10px"});
 		var tocTable = toc.append("div").classed("as-table",true);
 
 		//fill in all description text -- the DOM structure has been set accordingly: intro, toc, remaining paragraphs
@@ -612,7 +627,7 @@ function MetroInteractive(appWrapperElement){
 
 		infoButton.on("mousedown",function(d,i){
 			self.show(true);
-		})
+		});
 
 		this.hide = function(snapToTop){
 			S.TOCShown = false;
@@ -622,6 +637,8 @@ function MetroInteractive(appWrapperElement){
 			}
 		}
 
+		var ftimer;
+		var btimer;
 		var next = function(inc){
 			//determine current view
 			try{
@@ -641,6 +658,16 @@ function MetroInteractive(appWrapperElement){
 			}
 			else if(n >= 0 && n < viewList.length){
 				self.hide();
+				if(inc > 0){
+					clearTimeout(ftimer);
+					forward.classed("menu-button-active",true);
+					ftimer = setTimeout(function(){forward.classed("menu-button-active",false)},200);
+				}
+				else if(inc < 0){
+					clearTimeout(btimer);
+					back.classed("menu-button-active",true);
+					btimer = setTimeout(function(){back.classed("menu-button-active",false)},200);					
+				}
 				qcView(viewList[n]);
 			}
 			 
@@ -768,6 +795,7 @@ function MetroInteractive(appWrapperElement){
 	//on resize, redraw the current view on a delay
 	var resize_timer;
 	window.addEventListener("resize",function(){
+		matchMedia(); //update viewport property
 		clearTimeout(resize_timer);
 		//only set resize timer if TOC isn't shown
 		if(!S.TOCShown){
