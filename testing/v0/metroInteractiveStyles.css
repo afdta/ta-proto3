@@ -30,7 +30,7 @@
 
 
 .metro-interactive-wrap{
-	margin:10px 0px;
+	margin:1em 0px;
 	background-color:#ffffff;
 }
 
@@ -432,7 +432,7 @@ p.metro-interactive-description{
 
 	.metro-interactive-wrap .no-mobile-display{display:none;}
 	.metro-interactive-wrap .mobile-bottom-buffer{margin-bottom:25px;}
-	.metro-interactive-toc-box{float:none; width:auto; margin:6px 0px 0px 0px;}
+	.metro-interactive-toc-box{float:none; width:auto; margin:0px 0px 0px 0px;}
 }
 @media (min-width:640px){
 	.metro-interactive-wrap .metro-interactive-grid.four-equal > div{width:25%;}

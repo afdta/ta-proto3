@@ -552,7 +552,7 @@ function MetroInteractive(appWrapperElement){
 				content.style("padding","5px 15px");
 			}
 			else{
-				content.style("padding","15px 3px");
+				content.style("padding","3px 3px");
 			}
 		}
 		catch(e){
