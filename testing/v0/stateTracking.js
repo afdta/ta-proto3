@@ -144,7 +144,7 @@ function MetroInteractive(appWrapperElement){
 	//bring an element to top of window via scrolltop
 	function scrollToThis(thiz){
 		try{
-			var snapThreshold = S.viewport.mobile ? 10 : 125;
+			var snapThreshold = S.viewport.mobile ? 1 : 125;
 			var etop = thiz.getBoundingClientRect().top;
 			if(etop > 0 && etop < snapThreshold){throw "Already in view"}
 			var current = window.scrollY;
@@ -159,7 +159,12 @@ function MetroInteractive(appWrapperElement){
 			//scroll to top in next tick -- allows any necessary loading/drawing to take place first
 			setTimeout(function(){
 				try{
-					d3.transition().duration(500).tween("scrollToThis",tween);
+					if(Math.abs(next-current) <= 10){
+						window.scroll(0,next);
+					}
+					else{
+						d3.transition().duration(500).tween("scrollToThis",tween);
+					}
 				}
 				catch(e){
 					//no-op
