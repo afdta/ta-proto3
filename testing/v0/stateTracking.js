@@ -148,7 +148,7 @@ function MetroInteractive(appWrapperElement){
 			var etop = thiz.getBoundingClientRect().top;
 			if(etop > 0 && etop < snapThreshold){throw "Already in view"}
 			var current = window.scrollY;
-			var next = current + etop;
+			var next = current + etop + 1;
 			var I = d3.interpolateNumber(current, next);
 			var tween = function(){
 				return function(t){
@@ -543,20 +543,34 @@ function MetroInteractive(appWrapperElement){
 
 		//divs to hold the menu view, menu view header, and menu view content
 		var slide = S.wrap.append("div").classed("metro-interactive-view-menu",true).style("overflow-y","auto");
-		var header = slide.append("div").style({"padding":"7px 15px 5px 15px", "background-color":"#0D73D6"});
-			header.append("p").text(!!S.about("title") ? S.about("title") : "Table of contents").classed("metro-interactive-header-text",true).style({"color":"#ffffff","line-height":"1em"});
-		var content = slide.append("div").style("padding","5px 15px");
+		var content = slide.append("div").classed("c-fix",true);
+
+		try{
+			if(S.about("title").length > 0){
+				var header = slide.append("div").style({"padding":"7px 15px 5px 15px", "background-color":"#0D73D6"});
+				header.append("p").text(S.about("title")).classed("metro-interactive-header-text",true).style({"color":"#ffffff","line-height":"1em"});			
+				content.style("padding","5px 15px");
+			}
+			else{
+				content.style("padding","15px 3px");
+			}
+		}
+		catch(e){
+			//no-op
+		}
+
+		
 
 		var descriptionText = S.about("description");
 		
 		//add the intro paragraph
-		if(descriptionText.length > 0){
-			content.append("p").text(descriptionText[0]).classed("metro-interactive-description",true);		
-		}
+		//if(descriptionText.length > 0){
+		//	content.append("p").text(descriptionText[0]).classed("metro-interactive-description",true);		
+		//}
 
 		//build the table of contents structure
 		var toc = content.append("div").classed("metro-interactive-toc-box",true).append("div");
-		toc.append("p").text("EXPLORE THE DATA").style({"font-size":"13px","color":"#0D73D6","margin-top":"10px"});
+		toc.append("p").text("EXPLORE THE DATA").style({"font-size":"13px","color":"#0D73D6","margin":"5px 0px 10px","padding":"3px 5px","border-bottom":"1px solid #0D73D6"});
 		var tocTable = toc.append("div").classed("as-table",true);
 
 		//fill in all description text -- the DOM structure has been set accordingly: intro, toc, remaining paragraphs
@@ -573,7 +587,7 @@ function MetroInteractive(appWrapperElement){
 		
 		var infoButton = S.progress.append("div").classed("metro-interactive-info-button",true).append("div");
 
-		backSVG.append("path").attr("d","M20,0 l-13,10 l13,10").attr("stroke-linecap","round");
+		backSVG.append("path").attr("d","M25,0 l-13,10 l13,10").attr("stroke-linecap","round");
 		forwardSVG.append("path").attr("d","M35,0 l13,10 l-13,10").attr("stroke-linecap","round");
 
 		
