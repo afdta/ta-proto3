@@ -563,10 +563,10 @@ function MetroInteractive(appWrapperElement){
 
 		var descriptionText = S.about("description");
 		
-		//add the intro paragraph
-		//if(descriptionText.length > 0){
-		//	content.append("p").text(descriptionText[0]).classed("metro-interactive-description",true);		
-		//}
+		//add the intro paragraph -- basically get the first paragraph before the toc-box
+		if(descriptionText.length > 0){
+			content.append("p").text(descriptionText[0]).classed("metro-interactive-description",true);		
+		}
 
 		//build the table of contents structure
 		var toc = content.append("div").classed("metro-interactive-toc-box",true).append("div");
@@ -574,9 +574,10 @@ function MetroInteractive(appWrapperElement){
 		var tocTable = toc.append("div").classed("as-table",true);
 
 		//fill in all description text -- the DOM structure has been set accordingly: intro, toc, remaining paragraphs
-		var contentP = content.selectAll("p.metro-interactive-description").data(descriptionText).enter().append("p").classed("metro-interactive-description",true)
-		.text(function(d,i){return d})
-		.classed("first-graph-no-margin",function(d,i){return i===0});
+		var contentP = content.selectAll("p.metro-interactive-description").data(descriptionText);
+		contentP.enter().append("p").classed("metro-interactive-description",true).text(function(d,i){return d});
+		contentP.exit().remove();
+		contentP.classed("first-graph-emphasis",function(d,i){return i===0});
 
 		//forward/back buttons
 		var back = S.progress.append("div").style({"float":"left", "width":"15%", "height":"100%", "position":"relative", "cursor":"pointer"});
@@ -790,6 +791,9 @@ function MetroInteractive(appWrapperElement){
 		}
 		else{
 			viewMenuCtrl.show(); //even though the default is to show TOC, use fn for layout side effects
+			if(S.currentSlide){
+				S.currentSlide.classed("out-right",true);
+			}
 		}
 
 	}
