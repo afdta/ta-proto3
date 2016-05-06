@@ -8,12 +8,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" type="text/css" href="metroInteractiveStyles.css">
+<link rel="stylesheet" type="text/css" href="transitAccess.css">
 </head>
 
 <body style="background-color:#dddddd">
 <script src="d3min.js" type="text/javascript"></script>
 <script src="stateTracking.js" type="text/javascript"></script>
-<script src="mapClass.js"></script>
 
 <div style="max-width:990px;width:100%;position:relative;margin:auto;background-color:#ffffff">
 	<div style="width:100%">
@@ -22,7 +22,7 @@
 
 
 	<div style="max-width:950px;width:100%;min-width:320px;min-height:600px;margin:25px auto">
-		<div id="youth-employment-wrap"></div>
+		<div id="transit-access-wrap"></div>
 	</div>
 
 	<div style="width:100%;height:300px"></div>
@@ -30,15 +30,19 @@
 </div>
 
 <script>
-	var TransitAccess = MetroInteractive(document.getElementById("youth-employment-wrap"));
+	var TransitAccess = MetroInteractive(document.getElementById("transit-access-wrap"));
 	//TransitAccess.about("title","Moving to Accessibility");
-	TransitAccess.about("description",["Project overview. Describe paradigms, need for shift in focus. Policymakers, pracitioners, and academics should be focused on accessibility. Here are the reasons why: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis, purus non pellentesque mollis, quam libero condimentum libero, non sollicitudin odio ex quis nisl. Nullam vitae dui eu orci commodo tempus sed non felis.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis, purus non pellentesque mollis, quam libero condimentum libero, non sollicitudin odio ex quis nisl. Nullam vitae dui eu orci commodo tempus sed non felis. Praesent ultricies rutrum lorem, nec dapibus tellus maximus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis, purus non pellentesque mollis, quam libero condimentum libero, non sollicitudin odio ex quis nisl. Nullam vitae dui eu orci commodo tempus sed non felis. Praesent ultricies rutrum lorem, nec dapibus tellus maximus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.","Integer at mi ac ante vestibulum ultricies. In euismod a ex eget rutrum. Phasellus lobortis massa vulputate scelerisque facilisis. Donec dapibus sed neque ac auctor. Vivamus tincidunt dui mi, non dictum enim mattis sit amet. Sed egestas tempor libero vel convallis. Phasellus id sem eget lorem consequat cursus.","Aliquam in ultricies lorem, ut sagittis nisl. Integer ultrices id dolor sit amet blandit. Donec hendrerit lobortis eros eget tincidunt. Sed odio dui, eleifend eu nunc nec, feugiat feugiat arcu. Curabitur ullamcorper lacinia magna, sed tincidunt odio finibus sodales. Donec ut elit metus. Fusce auctor elementum tortor ut congue. In hac habitasse platea dictumst. Nunc nec sapien bibendum, tincidunt eros vel, venenatis nulla. Nunc non iaculis nunc, a fermentum massa. Morbi nec facilisis ante."]);
+	TransitAccess.about("description",["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis, purus non pellentesque mollis, quam libero condimentum libero, non sollicitudin odio ex quis nisl. Nullam vitae dui eu orci commodo tempus sed non felis.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis, purus non pellentesque mollis, quam libero condimentum libero, non sollicitudin odio ex quis nisl. Nullam vitae dui eu orci commodo tempus sed non felis. Praesent ultricies rutrum lorem, nec dapibus tellus maximus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis, purus non pellentesque mollis, quam libero condimentum libero, non sollicitudin odio ex quis nisl. Nullam vitae dui eu orci commodo tempus sed non felis. Praesent ultricies rutrum lorem, nec dapibus tellus maximus vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.","Integer at mi ac ante vestibulum ultricies. In euismod a ex eget rutrum. Phasellus lobortis massa vulputate scelerisque facilisis. Donec dapibus sed neque ac auctor. Vivamus tincidunt dui mi, non dictum enim mattis sit amet. Sed egestas tempor libero vel convallis. Phasellus id sem eget lorem consequat cursus.","Aliquam in ultricies lorem, ut sagittis nisl. Integer ultrices id dolor sit amet blandit. Donec hendrerit lobortis eros eget tincidunt. Sed odio dui, eleifend eu nunc nec, feugiat feugiat arcu. Curabitur ullamcorper lacinia magna, sed tincidunt odio finibus sodales. Donec ut elit metus. Fusce auctor elementum tortor ut congue. In hac habitasse platea dictumst. Nunc nec sapien bibendum, tincidunt eros vel, venenatis nulla. Nunc non iaculis nunc, a fermentum massa. Morbi nec facilisis ante."]);
 </script>
 
-<!--<script src="aboutView.js"></script>-->
-<script src="views.js"></script>
+<script src="box1.js"></script>
+<script src="box2.js"></script>
+<script src="box3.js"></script>
+<script src="box4.js"></script>
+<script src="box5.js"></script>
+<script src="box6.js"></script>
 	
-<!--<script src="viewX.js"></script>-->
+
 
 <script>
 	TransitAccess.cap(); //tell the app to try and auto-draw based on hash and defaults

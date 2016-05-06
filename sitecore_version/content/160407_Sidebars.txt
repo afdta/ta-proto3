@@ -1,0 +1,43 @@
+﻿Box 1: Is the current urban transport model broken?
+
+(Level of Service and California)
+Moving beyond Congestion
+For many travelers, roadway congestion is often the most visible sign of a transportation system under stress. And for decades, public agencies’ natural response was to widen roads or build new ones in an effort to fit more vehicles in the same space. Yet researchers have known for decades that widening roads will not eliminate congestion. Often, wider roads may induce more people to drive, creating only more congestion in the long-run.
+
+As governments begin to recognize congestion is impossible to eliminate, more will begin to set other objectives. California—the original global archetype for car culture—is replacing their congestion-related objectives with ones aimed to reduce vehicle miles traveled. (Global example). These examples will form the vanguard of a new, innovative approach to how the public approaches urban transportation.
+
+Box 2: What is Accessibility?
+
+Formalizing an Accessibility Approach
+While accessibility theory has so far outpaced practice, some global regions have begun implementing accessibility concepts within their broader urban development frameworks. The United Kingdom formerly required certain transportation accessibility standards to be applied when planning the locations of schools, hospitals, and other shared public assets, and the Netherlands (finish). American cities like Baltimore, Denver, and Seattle have adopted metrics related to employment access as measures of regional performance. The Moving to Access project will begin cataloging more of these real world examples, offering a set of reference points for any city looking to boost accessibility in their communities. 
+
+Box 3: Can we measure accessibility?
+
+(Isochrones and software)
+The emerging interest in accessibility concepts 
+
+Box 4: What are the implications for land use policy?
+
+
+
+Box 5: Does financing affect accessibility?
+
+(Something on how cordon charges get reinvested in the local system (London or Stockholm) or an attempt to better subsidize informal transit (developing world). Joe’s prior version had some draft text we could use.)
+
+Box 6: What governance challenges are posed in facilitating urban accessibility?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
