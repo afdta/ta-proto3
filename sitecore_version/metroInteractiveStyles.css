@@ -1,0 +1,598 @@
+/*core styles*/
+.metro-interactive-wrap p, .metro-interactive-wrap a, .metro-interactive-wrap i, .metro-interactive-wrap li, .metro-interactive-wrap td{
+	font-family:arial;
+	font-size:15px;
+	color:#333333;
+	fill:#333333;
+	margin:1em 0px 1em 0px;
+	padding:0px;
+	line-height:1.3em;
+}
+.metro-interactive-wrap text{
+	fill:#333333;
+	font-family:arial;
+}
+
+.metro-interactive-wrap hr{
+	border:1px solid #cccccc;
+	border-width:1px 0px 0px 0px;
+	height:1px;
+	margin:8px 0px 8px 0px;
+	padding:0px;
+}
+
+.metro-interactive-wrap ul{
+	margin:0px;
+	padding:0px;
+}
+
+.metro-interactive-wrap select{
+	background-color:#ffffff;
+	padding:5px;
+	border: 1px solid #aaaaaa;
+	outline: 0px solid #aaaaaa;
+
+	font-size:15px;
+	font-family:arial, helvetica, sans;
+	line-height:1.25em;
+}
+
+.metro-interactive-wrap option{
+	font-size:15px;
+	font-family:arial, helvetica, sans;
+}
+
+.metro-interactive-wrap select:focus{
+	border: 1px solid #aaaaaa;
+}
+
+/*end core styles*/
+.metro-interactive-wrap{
+	margin:0px 0px;
+	background-color:#ffffff;
+}
+
+.metro-interactive-progress{
+	background-color:#ffffff;
+	margin:0px 0px 10px 0px;
+	padding:15px 0px 0px 0px;
+	height:35px;
+	width:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:relative;
+	visibility:visible;
+	z-index:50;
+	left:0%;
+}
+
+.metro-interactive-progress path{
+	stroke:#999999;
+	stroke-width:2px;
+	fill:#ffffff;
+	fill:none;
+	-webkit-transition:stroke 0.15s ease;
+	-moz-transition:stroke 0.15s ease;
+	-o-transition:stroke 0.15s ease;
+	transition:stroke 0.15s ease;
+}
+
+.metro-interactive-progress .menu-button-inactive path{stroke:#dddddd;}
+.metro-interactive-progress .menu-button-active path{stroke:#0D73D6;}
+
+.metro-interactive-wrap div.sort-asc p::after{content:"▲";color:#666666;}
+.metro-interactive-wrap div.sort-desc p::after{content: "▼";color:#666666;}
+
+.metro-interactive-wrap .generic-button{
+	float:left;
+	margin:2px 8px 6px 0px;
+	padding: 2px 6px;
+	border:1px solid #aaaaaa;
+	background-color:#ffffff;
+	cursor:pointer;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.metro-interactive-wrap .generic-button:last-child{margin-right:0px;}
+.metro-interactive-wrap .generic-button:hover{border-color:#666666;}
+.metro-interactive-wrap .generic-button.generic-button-selected, .metro-interactive-wrap .generic-button.generic-button-selected:hover{background-color:#666666;border-color:#666666;}
+.metro-interactive-wrap .generic-button p{
+	font-size:13px;
+	text-align:center;
+	line-height:1em;
+	padding:4px 8px;
+	margin:0px;
+
+	/*disable text selection*/
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;   
+	user-select: none;
+}
+.metro-interactive-wrap .generic-button.generic-button-selected p{color:#ffffff;}
+
+.metro-interactive-wrap .striped-background{
+	background-image: linear-gradient(to left, #fbfbfb, #ffffff);
+}
+
+.metro-interactive-wrap .text-accent-uc1{
+	text-transform:uppercase;
+	color:#666666;
+	margin:0px;
+	font-size:11px;
+}
+
+.metro-interactive-wrap .text-accent-uc2{
+	text-transform:uppercase;
+	color:#666666;
+	margin:0px;
+	font-size:13px;
+}
+
+
+.metro-interactive-views{
+	min-height:500px;
+	position:relative;
+	visibility:visible;
+	overflow:hidden;
+	border:1px solid #aaaaaa;
+	border-width:0px 0px 0px 0px;
+	z-index:50;
+	left:0%;
+}
+
+.metro-interactive-view-wrap{
+	position:absolute;
+	top:0px;
+	left:0%;
+	width:100%;
+	height:auto;
+}
+
+.metro-interactive-view{
+	position:relative;
+	top:0%;
+	left:0%;
+	min-height:600px;
+
+	opacity: 1;
+
+	-webkit-transition:opacity 0.35s ease, left 0.5s ease;
+	-moz-transition:opacity 0.35s ease, left 0.5s ease;
+	-o-transition:opacity 0.35s ease, left 0.5s ease;
+	transition:opacity 0.35s ease, left 0.5s ease;
+
+	-webkit-box-sizing:border-box;
+ 	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+
+  	border:1px solid #aaaaaa;
+  	border-width:1px 0px 1px 0px;
+
+  	padding:0px 0px 10px 0px;
+  	z-index:10;
+
+  	background: #ffffff;
+}
+
+.metro-interactive-view-header{
+	background-color: #ffffff;
+	left:0px;
+	position:relative;
+	padding:20px 5px 3px 5px;
+	z-index:15;
+	margin-bottom:0px;
+	min-height:30px;
+}
+
+.metro-interactive-wrap .metro-interactive-view-header p:first-child{color:#0D73D6; line-height:1.3em; font-size:1.3em; font-weight:normal; margin:2px 0px 2px 0px;}
+.metro-interactive-wrap .metro-interactive-header-text{color:#0D73D6; line-height:1.3em; font-size:1.3em; font-weight:normal; margin:2px 0px 2px 0px;}
+.metro-interactive-wrap .metro-interactive-view-description{line-height:1.6em;margin-top:0.5em;margin-bottom:0.5em;}
+
+.metro-interactive-view-content{
+	padding:5px 5px;
+}
+
+.metro-interactive-view-content p, .metro-interactive-view-content li{line-height:1.6em;}
+
+.metro-interactive-view.out-left{left:-110%; opacity:0; z-index:1;}
+.metro-interactive-view.out-right{left:110%; opacity:0; z-index:1;}
+.metro-interactive-view.out-of-view{
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	transition:none;
+}
+.metro-interactive-view.bad-view{opacity:0.3;}
+.metro-interactive-view.bad-view::before{content:"An error occured while retrieving your data. Please reload the page"; position:absolute; top:50px; left:30px;}
+
+.metro-interactive-wrap .out-of-flow{
+	position:absolute;
+	visibility:hidden;
+	top:0px;
+	left:0px;
+	z-index:0;
+	pointer-events:none;
+}
+
+.metro-interactive-view-menu{
+	position:absolute;
+	visibility:hidden;
+
+	top:0%;
+	left:-110%;
+
+	min-height:500px;
+	/*height:1080px;
+	height:100vh;*/
+	width:100%;
+
+	/*-webkit-transition:opacity 0.25s ease;
+	-moz-transition:opacity 0.25s ease;
+	-o-transition:opacity 0.25s ease;
+	transition:opacity 0.25s ease;*/
+
+	/*-webkit-transition:left 0.25s ease;
+	-moz-transition:left 0.25s ease;
+	-o-transition:left 0.25s ease;
+	transition:left 0.25s ease;*/
+
+	-webkit-box-sizing:border-box;
+ 	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+
+  	border:1px solid #aaaaaa;
+  	border-width:0px 0px 1px 0px;
+
+  	padding:0px 0px 10px 0px;
+  	z-index:100;
+  	background: #ffffff;
+}
+.metro-interactive-view-menu .metro-interactive-view-header{background-color:#0D73D6;} /*border-color:#0D73D6;*/
+.metro-interactive-view-menu .metro-interactive-view-header p{color:#ffffff;}
+
+/*control of showing/hiding the toc is at bottom to ensure the styles are note overridden*/
+
+p.metro-interactive-description{
+	line-height:1.6em;
+	font-size:1em;
+	margin:0.8em 0px 0px 0px;
+}
+
+p.metro-interactive-description:first-child{
+	font-size:1em;
+	font-weight:bold;
+	margin-top:0.8em;
+}
+
+.metro-interactive-toc-box{
+	border:1px solid #0D73D6;
+	margin:15px 30px 15px 0px;
+	width:50%;
+	float:left;
+}
+
+.metro-interactive-content-link{
+	cursor:pointer;
+	margin:10px 0px;
+	font-weight:bold;
+	position:relative;
+}
+.metro-interactive-content-link p{position:relative;}
+.metro-interactive-content-link:hover p {
+	color:#0D73D6;
+}
+
+.metro-interactive-loading-icon{
+	position:absolute;
+	left:50%;
+	margin-left:-20px;
+	top:50px;
+	display:none;
+}
+
+
+
+.metro-interactive-info-button{
+	position:absolute;
+	right:0px;
+	top:5px;
+	width:30px;
+	height:23px;
+	padding:9px 6px 9px 10px;
+	z-index:100;
+	cursor:pointer;
+}
+
+.metro-interactive-info-button > div{
+	border:0px solid #0D73D6;
+	position:relative;
+	width:100%;
+	height:21px;
+}
+
+.metro-interactive-info-button > div:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 24px;
+	margin: 3px;
+	height: 3px;
+	border-top: 9px double #999999;
+	border-bottom: 3px solid #999999;
+	background-color: #ffffff;
+}
+
+.metro-interactive-info-button > div:hover:before{
+	border-color:#0D73D6;
+}
+
+.metro-interactive-close-button{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:25px;
+	height:25px;
+	margin:0px 7px;
+	z-index:105;
+	cursor:pointer;
+}
+
+.metro-interactive-close-button:after,.metro-interactive-close-button:before{
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width:100%;
+    top:50%;
+    height:4px;
+    margin-top:-2px;
+    background-color:#ffffff;
+    content:"";
+    position:absolute;
+}
+.metro-interactive-close-button:before{
+	-webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+
+.metro-interactive-loading-icon rect{shape-rendering:crispEdges;}
+.metro-interactive-loading-icon text{fill:#666666;}
+
+.metro-interactive-view.view-is-loading .metro-interactive-loading-icon{display:block;}
+
+/*Utility classes*/
+.metro-interactive-wrap .c-fix::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.metro-interactive-wrap .as-table p{
+	margin:0px;
+	line-height:normal;
+}
+
+.metro-interactive-wrap .as-table p span{
+	white-space: nowrap;
+}
+
+.metro-interactive-wrap .as-table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	border-collapse:collapse;
+}
+
+.metro-interactive-wrap .as-table .as-table-row{
+	display:table-row;
+	width:100%;
+}
+
+.metro-interactive-wrap .as-table .as-table-row .as-table-cell{
+	display:table-cell;
+	vertical-align:bottom;
+	padding:5px 5px 5px 2px;
+}
+.metro-interactive-wrap .as-table .as-table-row .as-table-cell.border-bottom{
+	border:1px dotted #aaaaaa;
+	border-width:0px 0px 1px 0px; 
+	border-bottom-color:#aaaaaa;
+}
+.metro-interactive-wrap .as-table .as-table-row:last-child .as-table-cell{border-bottom:none;}
+
+.metro-interactive-wrap .table-row .row-detail{display:none; min-height:100px;padding-top:12px;}
+
+.metro-interactive-wrap .table-row{
+	background-color:#ffffff;
+	cursor:pointer;
+	pointer-events:all;
+	border:none;
+	padding:15px 10px 10px 10px;
+}
+.metro-interactive-wrap .table-row.row-is-pinned, .metro-interactive-wrap .table-row.row-is-highlighted{
+	background-color:#fbfbfb;
+	border-right-color:#aaaaaa;
+	border-left-color:#aaaaaa;
+}
+
+.metro-interactive-wrap .as-table-row.row-is-pinned, .metro-interactive-wrap .as-table-row.row-is-highlighted{
+	background-color:#ebebeb;
+}
+.metro-interactive-wrap .as-table-row.row-is-pinned p, 
+.metro-interactive-wrap .as-table-row.row-is-highlighted p,
+.metro-interactive-wrap .as-table-row.row-is-bolded p {
+	font-weight:bold;
+}
+
+.metro-interactive-wrap .table-row.row-is-pinned .row-label, 
+.metro-interactive-wrap .table-row.row-is-highlighted .row-label{font-weight:bold;}
+
+.metro-interactive-wrap .table-row.row-is-pinned {border-style:solid;}
+.metro-interactive-wrap .table-row.row-is-pinned .row-detail{display:block;}
+
+.metro-interactive-wrap .two-fifths{
+	width:40%;
+	float:left;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+/*clearfix the grid*/
+.metro-interactive-wrap .metro-interactive-grid:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.metro-interactive-wrap .metro-interactive-grid > div{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:15px;
+	float:left;
+}
+.metro-interactive-wrap .metro-interactive-grid.four-equal > div{width:25%;}
+.metro-interactive-wrap .metro-interactive-grid.three-equal > div{width:33.3%;}
+.metro-interactive-wrap .metro-interactive-grid.two-equal > div{width:50%;}
+
+.metro-interactive-wrap .metro-interactive-grid.three-two > div{width:40%;}
+.metro-interactive-wrap .metro-interactive-grid.three-two > div:first-child{width:60%;}
+.metro-interactive-wrap .metro-interactive-grid.two-three > div{width:60%;}
+.metro-interactive-wrap .metro-interactive-grid.two-three > div:first-child{width:40%;}
+
+.metro-interactive-wrap .metro-interactive-grid.three-one > div{width:25%;}
+.metro-interactive-wrap .metro-interactive-grid.three-one > div:first-child{width:75%;}
+.metro-interactive-wrap .metro-interactive-grid.one-three > div{width:75%;}
+.metro-interactive-wrap .metro-interactive-grid.one-three > div:first-child{width:25%;}
+
+.metro-interactive-wrap .no-mobile-display{
+
+}
+
+.metro-interactive-wrap .bulleted-item{
+	position:relative;
+	margin:0px 15px 0px 45px;
+	padding:0px 5px 5px 5px;
+}
+.metro-interactive-wrap .bulleted-item::before{
+	position:absolute;
+	left:-12px;
+	content:"• ";
+}
+.metro-interactive-wrap .bulleted-item span{font-style:italic; text-decoration:underline;}
+
+.metro-interactive-view .column-right{float:right;}
+.metro-interactive-view .column-left{float:left;}
+
+.metro-interactive-view svg g.d3-axis-group text{
+	font-size:11px;
+}
+.metro-interactive-view svg g.d3-axis-group line, .metro-interactive-view svg g.d3-axis-group path{
+	fill:none;
+	stroke:#cccccc;
+	stroke-width:1px;
+	shape-rendering:crispEdges;
+}
+
+
+@media (min-width:0px){
+	.metro-interactive-wrap .metro-interactive-grid.four-equal > div{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.three-equal > div{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.two-equal > div{width:100%;}
+
+	.metro-interactive-wrap .metro-interactive-grid.three-two > div{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.three-two > div:first-child{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.two-three > div{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.two-three > div:first-child{width:100%;}
+
+	.metro-interactive-wrap .metro-interactive-grid.three-one > div{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.three-one > div:first-child{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.one-three > div{width:100%;}
+	.metro-interactive-wrap .metro-interactive-grid.one-three > div:first-child{width:100%;}
+
+	.metro-interactive-wrap .no-mobile-display{display:none;}
+	.metro-interactive-wrap .mobile-bottom-buffer{margin-bottom:25px;}
+
+	p.first-graph-emphasis{margin-top:1em;}
+	.metro-interactive-toc-box{float:none; width:auto; margin:1em 0px 1em 0px;}
+
+	.metro-interactive-wrap p, .metro-interactive-wrap a, .metro-interactive-wrap i, .metro-interactive-wrap li, 
+	.metro-interactive-wrap td, .metro-interactive-wrap p span{
+			font-size:13px;
+	}
+
+	.metro-interactive-wrap .metro-interactive-header-text{font-size:15px;}
+}
+@media (min-width:640px){
+	.metro-interactive-wrap .metro-interactive-grid.four-equal > div{width:25%;}
+	.metro-interactive-wrap .metro-interactive-grid.three-equal > div{width:33.3%;}
+	.metro-interactive-wrap .metro-interactive-grid.two-equal > div{width:50%;}
+
+	.metro-interactive-wrap .metro-interactive-grid.three-two > div{width:40%;}
+	.metro-interactive-wrap .metro-interactive-grid.three-two > div:first-child{width:60%;}
+	.metro-interactive-wrap .metro-interactive-grid.two-three > div{width:60%;}
+	.metro-interactive-wrap .metro-interactive-grid.two-three > div:first-child{width:40%;}
+
+	.metro-interactive-wrap .metro-interactive-grid.three-one > div{width:25%;}
+	.metro-interactive-wrap .metro-interactive-grid.three-one > div:first-child{width:75%;}
+	.metro-interactive-wrap .metro-interactive-grid.one-three > div{width:75%;}
+	.metro-interactive-wrap .metro-interactive-grid.one-three > div:first-child{width:25%;}
+
+	.metro-interactive-wrap .no-mobile-display{display:block;}
+	.metro-interactive-wrap .mobile-bottom-buffer{margin-bottom:0px;}
+
+	p.first-graph-emphasis{margin-top:1em;}
+	.metro-interactive-toc-box{float:left; width:50%; margin:1em 2em 1em 0em;}
+
+	.metro-interactive-wrap p, .metro-interactive-wrap a, .metro-interactive-wrap i, .metro-interactive-wrap li, 
+	.metro-interactive-wrap td, .metro-interactive-wrap p span{
+			font-size:15px;
+	}
+
+	.metro-interactive-wrap .metro-interactive-header-text{font-size:17px;}
+}
+
+/*misc*/
+body{
+	margin:0px;
+}
+
+/*disable text highlighting*/
+.metro-interactive-wrap .disable-text-select {
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;   
+	user-select: none;
+}
+
+/*show/hide toc*/
+/*toggle between showing the view wrapper and the table of contents*/
+/*it's necessary to toggle the position attribute in order to take these items out of doc flow while hidden -- don't want to use display:none;*/
+.metro-interactive-wrap.toc-visible .metro-interactive-view-menu{
+	position:relative;
+	visibility:visible;
+	left:0%;
+}
+.metro-interactive-wrap.toc-visible .metro-interactive-views{
+	position:absolute;
+	visibility:hidden;
+	left:0%;
+}
+.metro-interactive-wrap.toc-visible .metro-interactive-progress{
+	position:absolute;
+	visibility:hidden;
+	left:0%;
+}
